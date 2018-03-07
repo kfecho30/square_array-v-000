@@ -7,8 +7,8 @@ def square_array(array)
 end
 
 def collect_array(array)
-  new_array = array.collect {|n| n*n}
-  puts new_array
+  puts array.collect {|n| n*n}
+
 end
 
 collect_array([1, 2, 3])
