@@ -7,7 +7,7 @@ def square_array(array)
 end
 
 def collect_array(array)
-  puts array.collect {|n| n*n}
+  puts array.map {|n| n*n}
   puts array
 end
 
