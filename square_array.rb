@@ -5,3 +5,6 @@ def square_array(array)
   end
   new_array
 end
+
+def collect_array(array)
+  array.collect {|n| n*n}
