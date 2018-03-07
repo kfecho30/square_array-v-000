@@ -8,3 +8,6 @@ end
 
 def collect_array(array)
   array.collect {|n| n*n}
+end
+
+collect_array([1, 2, 3])
